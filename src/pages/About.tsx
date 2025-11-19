@@ -4,28 +4,40 @@ import { Award, Users, Target, Eye, Heart, CheckCircle } from 'lucide-react';
 const About: React.FC = () => {
   const team = [
     {
-      name: 'David Thompson',
+      name: 'Pravin Ghadage',
       role: 'CEO & Founder',
       image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: '15+ years in medical AV solutions'
+      bio: '20+ years in medical AV solutions'
     },
     {
-      name: 'Sarah Mitchell',
-      role: 'Technical Director',
+      name: 'Pramod Ghadage',
+      role: 'Technical Lead',
       image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Expert in live surgery broadcasting'
+      bio: 'Expert in Technical Support'
     },
     {
-      name: 'Michael Rodriguez',
+      name: 'Nagnath Patil',
       role: 'Operations Manager',
       image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=400',
       bio: 'Specializes in conference management'
     },
     {
-      name: 'Emily Chen',
-      role: 'Client Relations',
+      name: 'Amar Madiwal',
+      role: 'Technical Operator',
       image: 'https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?auto=compress&cs=tinysrgb&w=400',
       bio: 'Dedicated to client satisfaction'
+    },
+    {
+      name: 'Sangram Ghadage',
+      role: 'AV Support',
+      image: 'https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?auto=compress&cs=tinysrgb&w=400',
+      bio: 'Generalist in optimized AV solutions'
+    },
+    {
+      name: 'Siddhiraj Ghadage',
+      role: 'AV Support',
+      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+      bio: 'Expert in resource optimization'
     }
   ];
 

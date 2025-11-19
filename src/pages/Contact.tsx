@@ -54,26 +54,26 @@ const Contact: React.FC = () => {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['+1 (555) 123-4567', '+1 (555) 987-6543 (Emergency)'],
-      description: '24/7 Emergency Support Available'
+      details: ['+91 98900 61561'],
+      description: ''
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@sharpvision.com', 'emergency@sharpvision.com'],
-      description: 'Response within 2 hours'
+      details: ['pravinsharpvisionsangli@gmail.com'],
+      description: 'Response within 12 hours'
     },
     {
       icon: MapPin,
       title: 'Office Location',
-      details: ['123 Medical Plaza Drive', 'Suite 200, New York, NY 10001'],
-      description: 'Serving nationwide'
+      details: ['Pranam Arcade, 1st Floor, Near Kachhi Bhavan', 'Ram Mandir, Sangli - 416416'],
+      description: ''
     },
     {
       icon: Clock,
       title: 'Business Hours',
-      details: ['Monday - Friday: 8:00 AM - 8:00 PM', 'Saturday: 9:00 AM - 6:00 PM'],
-      description: 'Sunday: Emergency calls only'
+      details: ['Monday - Sunday: 8:00 AM - 8:00 PM'],
+      description: ''
     }
   ];
 
@@ -112,7 +112,7 @@ const Contact: React.FC = () => {
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6">Contact Us</h1>
             <p className="text-xl max-w-3xl mx-auto">
-              Get in touch for professional audio-visual support. Emergency support available 24/7.
+              Get in touch for professional audio-visual support.
             </p>
           </div>
         </div>
@@ -256,7 +256,7 @@ const Contact: React.FC = () => {
                 ))}
               </div>
               
-              {/* Emergency Contact */}
+              {/* Emergency Contact
               <div className="mt-12 bg-red-50 border border-red-200 rounded-lg p-6">
                 <div className="flex items-center space-x-3 mb-4">
                   <AlertCircle className="w-6 h-6 text-[#6B0012]" />
@@ -275,7 +275,7 @@ const Contact: React.FC = () => {
                     <span className="font-semibold">emergency@sharpvision.com</span>
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -286,13 +286,13 @@ const Contact: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Location</h2>
-            <p className="text-xl text-gray-600">Visit us at our headquarters in New York</p>
+            <p className="text-xl text-gray-600">Visit us at our office in Sangli</p>
           </div>
           
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="aspect-w-16 aspect-h-9">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.3141856823443!2d-73.98456492404069!3d40.74844097138558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1699901234567!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.4055574832687!2d74.5749561!3d16.8558209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1186930b6c859%3A0xdd73c3f19339a6c2!2sPranam%20Arcade%2C%20Overseers%20Colony%2C%20Khanbhag%2C%20Sangli%2C%20Sangli%20Miraj%20Kupwad%2C%20Maharashtra%20416416!5e0!3m2!1sen!2sin!4v1763559551835!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                 width="100%"  
                 height="400"
                 style={{ border: 0 }}

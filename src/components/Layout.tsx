@@ -28,12 +28,12 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-[#6B0012] rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">SV</span>
+              <div className="w-14 h-14 rounded-lg flex items-center justify-center">
+                <img src="/resources/favicon.PNG" alt="SV Logo" className="w-14 h-14 object-contain"/>
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-[#6B0012]">Sharp Vision</h1>
-                <p className="text-sm text-gray-600">Audio-Visual Management</p>
+                <p className="text-sm text-gray-600">Audio-Visual Management Company</p>
               </div>
             </Link>
 
@@ -59,11 +59,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <div className="hidden lg:flex items-center space-x-4">
                 <a href="tel:+1234567890" className="flex items-center space-x-2 text-[#6B0012] hover:text-red-700">
                   <Phone className="w-4 h-4" />
-                  <span className="text-sm font-medium">+1 (234) 567-890</span>
+                  <span className="text-sm font-medium">+91 98900 61561</span>
                 </a>
                 <a href="mailto:info@sharpvision.com" className="flex items-center space-x-2 text-[#6B0012] hover:text-red-700">
                   <Mail className="w-4 h-4" />
-                  <span className="text-sm font-medium">info@sharpvision.com</span>
+                  <span className="text-sm font-medium">pravinsharpvisionsangli@gmail.com</span>
                 </a>
               </div>
               
@@ -99,11 +99,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <div className="pt-4 border-t">
                 <a href="tel:+1234567890" className="block px-3 py-2 text-[#6B0012] hover:bg-gray-50">
                   <Phone className="w-4 h-4 inline mr-2" />
-                  +1 (234) 567-890
+                  +91 98900 61561
                 </a>
                 <a href="mailto:info@sharpvision.com" className="block px-3 py-2 text-[#6B0012] hover:bg-gray-50">
                   <Mail className="w-4 h-4 inline mr-2" />
-                  info@sharpvision.com
+                  pravinsharpvisionsangli@gmail.com
                 </a>
               </div>
             </div>
@@ -160,22 +160,22 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <div className="space-y-2">
                 <p className="text-gray-400">
                   <Phone className="w-4 h-4 inline mr-2" />
-                  +1 (234) 567-890
+                  +91 98900 61561
                 </p>
                 <p className="text-gray-400">
                   <Mail className="w-4 h-4 inline mr-2" />
-                  info@sharpvision.com
+                  pravinsharpvisionsangli@gmail.com
                 </p>
                 <p className="text-gray-400">
-                  123 Business Ave, Suite 100<br />
-                  New York, NY 10001
+                  Pranam Arcade, 1st Floor,<br />
+                  Near Kachhi Bhavan Ram Mandir, Sangli - 416416,<br/>
                 </p>
               </div>
             </div>
           </div>
           
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Sharp Vision. All rights reserved.</p>
+            <p>&copy; 2026 Sharp Vision. All rights reserved.</p>
           </div>
         </div>
       </footer>

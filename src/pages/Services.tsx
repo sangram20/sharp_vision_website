@@ -257,7 +257,7 @@ const Services: React.FC = () => {
         </div>
       </section>
 
-      {/* Service Request Form */}
+      {/* Service Request Form
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -407,7 +407,7 @@ const Services: React.FC = () => {
             </div>
           </form>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

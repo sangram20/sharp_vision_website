@@ -168,7 +168,7 @@ const Projects: React.FC = () => {
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6">Our Projects</h1>
             <p className="text-xl max-w-3xl mx-auto">
-              Showcasing our portfolio of successful medical events and professional conferences
+              Showcasing our portfolio of successful live relay events and professional conferences
             </p>
           </div>
         </div>

@@ -7,7 +7,7 @@ const Homepage: React.FC = () => {
 
   const heroImages = [
     {
-      url: '/resources/sm.avif',
+      url: '/resources/aoicon_2024.JPG',
       title: 'Live Surgery Relay',
       description: 'Professional medical event broadcasting'
     },
@@ -123,7 +123,7 @@ const Homepage: React.FC = () => {
                 className="bg-[#6B0012] text-white px-8 py-4 rounded-lg font-semibold hover:bg-red-700 transition-colors flex items-center justify-center space-x-2"
               >
                 <Phone className="w-5 h-5" />
-                <span>Get Urgent Quote</span>
+                <span>Contact Us</span>
               </Link>
               <Link
                 to="/services"
