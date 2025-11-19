@@ -7,7 +7,7 @@ const Homepage: React.FC = () => {
 
   const heroImages = [
     {
-      url: 'https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      url: './public/resources/sm.avif',
       title: 'Live Surgery Relay',
       description: 'Professional medical event broadcasting'
     },
@@ -112,7 +112,7 @@ const Homepage: React.FC = () => {
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white max-w-4xl mx-auto px-4">
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
-              Audio-Visual M Company
+              Audio-Visual Management Company
             </h1>
             <p className="text-2xl md:text-3xl mb-8 font-light">
               Your presentation partner.
