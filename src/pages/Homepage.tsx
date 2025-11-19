@@ -7,7 +7,7 @@ const Homepage: React.FC = () => {
 
   const heroImages = [
     {
-      url: './public/resources/sm.avif',
+      url: '/resources/sm.avif',
       title: 'Live Surgery Relay',
       description: 'Professional medical event broadcasting'
     },
