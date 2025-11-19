@@ -112,7 +112,7 @@ const Homepage: React.FC = () => {
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white max-w-4xl mx-auto px-4">
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
-              Audio-Visual Management Company
+              Audio-Visual M Company
             </h1>
             <p className="text-2xl md:text-3xl mb-8 font-light">
               Your presentation partner.
