@@ -20,7 +20,6 @@ const Services: React.FC = () => {
         'Surgical cameras with 4K resolution',
         'Wireless transmission systems',
         'Audio enhancement equipment',
-        'Lighting systems for optimal visibility',
         'Remote camera control systems'
       ],
       image: 'https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&cs=tinysrgb&w=800'
@@ -40,7 +39,6 @@ const Services: React.FC = () => {
         'Professional sound systems',
         'Large format displays and projectors',
         'Conference microphones',
-        'Lighting control systems',
         'Video switching equipment'
       ],
       image: 'https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg?auto=compress&cs=tinysrgb&w=800'
@@ -60,7 +58,7 @@ const Services: React.FC = () => {
         'Portable sound systems',
         'Interactive displays',
         'Wireless microphones',
-        'Presentation clickers',
+        'Presentation pointers',
         'Recording equipment'
       ],
       image: 'https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&w=800'
@@ -69,19 +67,18 @@ const Services: React.FC = () => {
       title: 'CME Programs',
       description: 'Continuing Medical Education event management and accreditation support',
       features: [
-        'CME accreditation assistance',
-        'Attendance tracking systems',
-        'Certificate generation',
-        'Evaluation management',
-        'Compliance reporting',
-        'Multi-platform delivery'
+        'Presentation management',
+        'Time management system',
+        'Live streaming capabilities',
+        'Network Integration',
+        'Recording services',
+        'Multi-platform integration'
       ],
       equipment: [
-        'Audience tracking systems',
-        'Digital certification tools',
-        'Evaluation tablets',
+        'Sound systems',
+        'Digital displays and projectors',
         'Network infrastructure',
-        'Data management systems'
+        'Stopwatch systems'
       ],
       image: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=800'
     }
@@ -103,27 +100,27 @@ const Services: React.FC = () => {
         { name: '4K Cameras', specs: 'Professional broadcast quality' },
         { name: 'LED Video Walls', specs: 'Modular, high-resolution displays' },
         { name: 'Video Switchers', specs: 'Multi-input, live switching' },
-        { name: 'Projection Systems', specs: 'High-lumen, large venue' }
+        { name: '3D Projection Systems', specs: 'High-lumen, large venue' }
       ]
-    },
-    {
-      category: 'Lighting Equipment',
-      items: [
-        { name: 'LED Stage Lighting', specs: 'Full spectrum, DMX control' },
-        { name: 'Surgical Lighting', specs: 'Shadow-free, adjustable' },
-        { name: 'Ambient Lighting', specs: 'Dimming, color temperature' },
-        { name: 'Emergency Lighting', specs: 'Battery backup systems' }
-      ]
-    },
-    {
-      category: 'Support Equipment',
-      items: [
-        { name: 'Power Distribution', specs: 'Clean power, surge protection' },
-        { name: 'Network Infrastructure', specs: 'Fiber optic, high-speed' },
-        { name: 'Cable Management', specs: 'Professional, safety compliant' },
-        { name: 'Equipment Racks', specs: 'Portable, secure storage' }
-      ]
-    }
+      }
+    // ,{
+    //   category: 'Lighting Equipment',
+    //   items: [
+    //     { name: 'LED Stage Lighting', specs: 'Full spectrum, DMX control' },
+    //     { name: 'Surgical Lighting', specs: 'Shadow-free, adjustable' },
+    //     { name: 'Ambient Lighting', specs: 'Dimming, color temperature' },
+    //     { name: 'Emergency Lighting', specs: 'Battery backup systems' }
+    //   ]
+    // },
+    // {
+    //   category: 'Support Equipment',
+    //   items: [
+    //     { name: 'Power Distribution', specs: 'Clean power, surge protection' },
+    //     { name: 'Network Infrastructure', specs: 'Fiber optic, high-speed' },
+    //     { name: 'Cable Management', specs: 'Professional, safety compliant' },
+    //     { name: 'Equipment Racks', specs: 'Portable, secure storage' }
+    //   ]
+    // }
   ];
 
   const [formData, setFormData] = useState({

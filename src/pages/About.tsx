@@ -182,7 +182,7 @@ const About: React.FC = () => {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Vision</h3>
               <p className="text-gray-700">
-                To be the leading provider of medical audio-visual solutions, setting the standard 
+                To be the leading provider of audio-visual solutions, setting the standard 
                 for excellence in healthcare event management and surgical broadcasting.
               </p>
             </div>
@@ -194,7 +194,7 @@ const About: React.FC = () => {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Values</h3>
               <p className="text-gray-700">
                 Excellence, reliability, innovation, and compassionate service drive everything we do. 
-                We believe in supporting the medical community with unwavering dedication.
+                We believe in supporting the client's community with unwavering dedication.
               </p>
             </div>
           </div>

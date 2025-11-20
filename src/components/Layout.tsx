@@ -168,7 +168,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 </p>
                 <p className="text-gray-400">
                   Pranam Arcade, 1st Floor,<br />
-                  Near Kachhi Bhavan Ram Mandir, Sangli - 416416,<br/>
+                  Near Kachhi Bhavan Ram Mandir, Sangli - 416416<br/>
                 </p>
               </div>
             </div>

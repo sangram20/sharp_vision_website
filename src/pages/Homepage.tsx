@@ -26,7 +26,7 @@ const Homepage: React.FC = () => {
   const services = [
     {
       title: 'Live Surgery Relay',
-      description: 'High-definition broadcasting of medical procedures for educational purposes',
+      description: 'High-definition broadcasting of medical procedures and events',
       icon: Play
     },
     {
@@ -36,12 +36,12 @@ const Homepage: React.FC = () => {
     },
     {
       title: 'Seminars',
-      description: 'Technical support and equipment for educational seminars',
+      description: 'Technical support and equipment for professional seminars',
       icon: Calendar
     },
     {
       title: 'CME Programs',
-      description: 'Continuing Medical Education event management and broadcasting',
+      description: 'Continuing Medical Education event management and audio-visual support',
       icon: Award
     }
   ];
@@ -68,9 +68,9 @@ const Homepage: React.FC = () => {
   ];
 
   const stats = [
-    { number: '500+', label: 'Events Completed' },
-    { number: '50+', label: 'Healthcare Partners' },
-    { number: '10+', label: 'Years Experience' },
+    { number: '200+', label: 'Events Completed' },
+    { number: '50+', label: 'Clients Served' },
+    { number: '20+', label: 'Years Experience' },
     { number: '99%', label: 'Client Satisfaction' }
   ];
 
@@ -170,7 +170,7 @@ const Homepage: React.FC = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive audio-visual solutions for medical professionals and educational institutions
+              Comprehensive audio-visual solutions for medical professionals and other professional events
             </p>
           </div>
           
@@ -232,7 +232,7 @@ const Homepage: React.FC = () => {
       {/* CTA Section */}
       <section className="py-20 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-4">Ready to Partner with Us?</h2>
+          <h2 className="text-4xl font-bold mb-4">Ready to shake hands with us?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Get professional audio-visual support for your next medical event or conference
           </p>
@@ -242,7 +242,7 @@ const Homepage: React.FC = () => {
               className="bg-[#6B0012] text-white px-8 py-4 rounded-lg font-semibold hover:bg-red-700 transition-colors inline-flex items-center justify-center space-x-2"
             >
               <Phone className="w-5 h-5" />
-              <span>Get Emergency Support</span>
+              <span>Get in Touch</span>
             </Link>
             <Link
               to="/projects"
